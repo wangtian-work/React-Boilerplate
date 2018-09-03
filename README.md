@@ -1,5 +1,3 @@
-# HOPMarket
-
 ## Development
 
 ### Quick Start
@@ -17,23 +15,6 @@ Now just clone and start the app:
 ```sh
 yarn
 yarn start
-```
-
-### Setting up environment variables
-
-Copy .env sample and update it as you need.
-```sh
-cp .env-sample .env
-```
-
-## Deployment
-
-```sh
-nvm use 10.1.0 # use node 10.1
-yarn # install dependencies
-cp .env-sample .env # set up .env and change the env variable
-yarn run build # make production build
-yarn run start:prod # start server as prod mode from the build
 ```
 
 ## Legacy Boilerplate Readme
